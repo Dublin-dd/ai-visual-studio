@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+data/
+.vefaas/
+.DS_Store
+
+*.tsbuildinfo
+
+.next-dev/
+.next-check/
+
+# Local project records, prototypes and private media
+/docs/*
+!/docs/screenshots/
+/frontend/public/design-preview/
+/AGENTS.md
+/CLAUDE.md
+/开始看这里.md
+*.db
+*.sqlite*
+*.log
